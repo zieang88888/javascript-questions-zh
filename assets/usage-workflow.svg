@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220">
+<rect width="960" height="220" fill="#FAF6EF"/>
+<rect x="50" y="46" width="260" height="128" rx="16" fill="#FFFFFF" stroke="#E6DCCB" stroke-width="2"/>
+<circle cx="84" cy="82" r="20" fill="#B23A2E"/>
+<text x="84" y="89" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">1</text>
+<text x="116" y="89" font-size="21" font-weight="bold" text-anchor="start" fill="#1F1B16">翻题</text>
+<text x="180.0" y="132" font-size="14" font-weight="normal" text-anchor="middle" fill="#6b6157">在索引里挑一道感兴趣的题</text>
+<rect x="350" y="46" width="260" height="128" rx="16" fill="#FFFFFF" stroke="#E6DCCB" stroke-width="2"/>
+<circle cx="384" cy="82" r="20" fill="#B23A2E"/>
+<text x="384" y="89" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">2</text>
+<text x="416" y="89" font-size="21" font-weight="bold" text-anchor="start" fill="#1F1B16">思考作答</text>
+<text x="480.0" y="132" font-size="14" font-weight="normal" text-anchor="middle" fill="#6b6157">先别看答案，自己想输出结果</text>
+<rect x="650" y="46" width="260" height="128" rx="16" fill="#FFFFFF" stroke="#E6DCCB" stroke-width="2"/>
+<circle cx="684" cy="82" r="20" fill="#B23A2E"/>
+<text x="684" y="89" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3</text>
+<text x="716" y="89" font-size="21" font-weight="bold" text-anchor="start" fill="#1F1B16">对照答案</text>
+<text x="780.0" y="132" font-size="14" font-weight="normal" text-anchor="middle" fill="#6b6157">展开折叠区看解析与考点</text>
+<text x="330.0" y="118" font-size="30" font-weight="bold" text-anchor="middle" fill="#B23A2E">→</text>
+<text x="630.0" y="118" font-size="30" font-weight="bold" text-anchor="middle" fill="#B23A2E">→</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260">
+<rect width="960" height="260" fill="#FAF6EF"/>
+<rect x="40" y="44" width="6" height="40" rx="3" fill="#B23A2E"/>
+<text x="60" y="78" font-size="44" font-weight="bold" text-anchor="start" fill="#1F1B16">JavaScript 面试题 · 中文版</text>
+<text x="60" y="112" font-size="17" font-weight="normal" text-anchor="start" fill="#6b6157">全球 6.5 万人收藏的前端面试刷题题库 · 全量 155 题中文导读</text>
+<rect x="40" y="168" width="200" height="46" rx="14" fill="#B23A2E"/>
+<rect x="256" y="168" width="200" height="46" rx="14" fill="#B23A2E"/>
+<rect x="472" y="168" width="200" height="46" rx="14" fill="#B23A2E"/>
+<rect x="688" y="168" width="200" height="46" rx="14" fill="#B23A2E"/>
+<text x="140.0" y="198" font-size="19" font-weight="bold" text-anchor="middle" fill="#FFFFFF">★ 65,000+</text>
+<text x="356.0" y="198" font-size="19" font-weight="bold" text-anchor="middle" fill="#FFFFFF">155 道题</text>
+<text x="572.0" y="198" font-size="19" font-weight="bold" text-anchor="middle" fill="#FFFFFF">22 种语言</text>
+<text x="788.0" y="198" font-size="19" font-weight="bold" text-anchor="middle" fill="#FFFFFF">MIT</text>
+</svg>
