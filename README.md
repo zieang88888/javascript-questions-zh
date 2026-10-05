@@ -5,6 +5,7 @@
 # JavaScript 面试题 · 中文版
 
 > **全球最受欢迎的 JavaScript 自测题库 · 中文导读版**
+>
 > 源自 GitHub 上 **65,000+ ★** 的 [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)，收录 **155 道由浅入深的 JavaScript 面试题**，覆盖变量提升、闭包、this、事件循环、原型链、异步等核心考点，答案折叠展开即可看解析，是前端面试备战与查漏补缺的刷题神器。
 
 ![Stars](https://img.shields.io/badge/GitHub%20Stars-65%2C302-B23A2E?style=flat-square)
@@ -14,6 +15,8 @@
 ![License](https://img.shields.io/badge/License-MIT-B23A2E?style=flat-square)
 
 ---
+
+⭐ 如果对你有帮助，点个 Star 支持中文开源
 
 ## 目录
 
@@ -38,6 +41,7 @@
 源项目由 Lydia Hallie 创建于 **2019 年**，以「看代码 → 猜输出 → 展开答案对照」的形式，收集了 **155 道从基础到进阶的 JavaScript 自测题**：变量提升与暂时性死区、闭包与事件循环、箭头函数 this、原型链与继承、`==` 与 `===` 隐式类型转换、对象引用、数组方法、ES6+ 模块化……几乎把前端面试里最容易翻车的坑全部串了一遍。每道题都有选择题 + 折叠答案区，点开即看深入浅出的解析。
 
 **中文版做了什么：**
+
 - 🗂️ 把源仓 **155 道题** 全量提取为中文索引（[questions-index.md](questions-index.md)），题号 + 英文原题 + 直达源 README 锚点链接，点开即做题；
 - ⚡ 在本 README 精选 **20 道高频面试题**，配中文译名 + 一句话考点；
 - 📖 提炼「三步刷题法」与 FAQ，让你从零开始高效刷完这套题库。
@@ -79,7 +83,6 @@ function sayHi() {
   var name = 'Lydia';
   let age = 21;
 }
-
 sayHi();
 ```
 
@@ -119,7 +122,7 @@ for (let i = 0; i < 3; i++) {
 | 12 | What's the output? | 不用 new 调用构造函数 | `this` 指向全局，返回值 `undefined` |
 | 13 | What are the three phases of event propagation? | 事件传播三阶段 | 捕获 → 目标 → 冒泡 |
 | 14 | All object have prototypes. | 原型链 | 并非所有对象都有原型（基础对象原型为 null） |
-| 15 | What's the output? | 隐式类型转换 | `1 + '2'` 触发字符串拼接得到 `"12"` |
+| 15 | What's the output? | 隐式类型转换 | `1 + '2'` 触发字符串拼接得到 "12" |
 | 16 | What's the output? | 前置/后置 ++ | 后置先返回后自增，前置先自增后返回 |
 | 22 | How long is cool_secret accessible? | sessionStorage 生命周期 | 关闭标签页即清除，关浏览器不影响 |
 | 26 | The global execution context creates two things... | 全局执行上下文 | 创建全局对象与 `this` 两个东西 |
@@ -141,18 +144,23 @@ for (let i = 0; i < 3; i++) {
 ## 常见问题 FAQ
 
 **Q1：我 JavaScript 基础一般，能刷吗？**
+
 可以。题目由浅入深，前 20 题覆盖变量提升、`==`/`===`、对象引用等基础高频点，配合 [MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) 边刷边查即可；后半部分再啃闭包、原型链与 ES6+。
 
 **Q2：题目答案在哪里看？**
+
 源仓每道题下方都有一个折叠的 `<details><summary>Answer</summary>` 区域，点击即可展开答案与详细解析。本索引的「查看题目」链接直接跳到对应题目的锚点。
 
 **Q3：这些题还跟得上现在的 JS 标准吗？**
+
 源项目 2019 年创建，题目基于当时的 JavaScript 语法与行为（源 README 顶部有明确说明）。像 `var` 提升、`this`、闭包、原型链这类核心机制至今没变，仍是面试重点；但部分新语法（如顶层 `await`、ES2022+ 特性）未覆盖，建议搭配新版资料学习。
 
 **Q4：为什么很多题目标题都叫 "What's the output?"？**
+
 因为这套题库的核心玩法就是「给你一段代码，猜它的输出」，所以大量题目同名。题目靠**题号**区分，本索引已按题号 1–155 全量编号并直达对应锚点。
 
 **Q5：这个中文版和源项目是什么关系？**
+
 本项目是中文**索引与导读**，题目、答案、解析都在源项目。所有题目链接均跳转源仓，版权归源项目及贡献者所有。
 
 ## 参与贡献
@@ -172,3 +180,16 @@ for (let i = 0; i < 3; i++) {
 - 本仓库代码与文档：**MIT License**（见 [LICENSE](LICENSE)，Copyright (c) 2026 zieang88888）；
 - 源项目 [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)：**MIT License**（Copyright (c) 2019 Lydia Hallie）；
 - 第三方声明与完整署名见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+## 姊妹项目
+
+中文开源矩阵，一网打尽开发者的知识库：
+
+- [zhskills · 中文技能库](https://github.com/zieang88888/zhskills)
+- [awesome-ai-tools-zh · AI 工具导航](https://github.com/zieang88888/awesome-ai-tools-zh)
+- [free-programming-books-zh · 编程书籍大全](https://github.com/zieang88888/free-programming-books-zh)
+- [system-design-zh · 系统设计面试](https://github.com/zieang88888/system-design-zh)
+- [awesome-python-zh · Python 生态导航](https://github.com/zieang88888/awesome-python-zh)
+- [ohmyzsh-zh · 终端效率神器](https://github.com/zieang88888/ohmyzsh-zh)
+- [llm-course-zh · LLM 课程导航](https://github.com/zieang88888/llm-course-zh)
+- [design-resources-for-developers-zh · 设计资源大全](https://github.com/zieang88888/design-resources-for-developers-zh)
